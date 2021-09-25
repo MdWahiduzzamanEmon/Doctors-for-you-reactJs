@@ -1,5 +1,5 @@
 import './App.css';
-import Doctors from './Components/Doctors/Doctors';
+import DoctorBody from './Components/Doctor-body/DoctorBody';
 import Header from './Components/Header/Header';
 import SecondHeader from './Components/SecondHeader/SecondHeader';
 
@@ -11,7 +11,7 @@ function App() {
       {/* second header  */}
       <SecondHeader></SecondHeader>
       {/* doctors section  */}
-      <Doctors></Doctors>
+      <DoctorBody></DoctorBody>
     </div>
   );
 }

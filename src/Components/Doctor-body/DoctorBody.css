@@ -1,0 +1,11 @@
+.cart-style{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    
+}
+.body-part{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+}
