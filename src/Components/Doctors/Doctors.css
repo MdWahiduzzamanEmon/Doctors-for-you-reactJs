@@ -9,13 +9,16 @@
     padding: 15px;
     background: rgb(233, 231, 231);
 }
+.img{
+    width: 100px;
+}
 .img img{
     width: 90%;
     border: 2px solid gray;
     border-radius: 5px;
 }
 
-.about-Doctors{
+.about-Doctors>div{
      width: 200px;
      font-weight: bold;
      height: 450px;
@@ -26,4 +29,17 @@
 .about-Doctors p{
     border-bottom: 1px solid gray;
     padding: 8px;
+}
+.social-icons{
+    display: flex;
+    margin-top: 10px;
+}
+.social-icons .fab{
+    padding: 0 7px;
+    color: brown;
+}
+.social-icons .fab:hover{
+    padding: 0 7px;
+    color: rgb(5, 85, 85);
+    cursor: pointer;
 }

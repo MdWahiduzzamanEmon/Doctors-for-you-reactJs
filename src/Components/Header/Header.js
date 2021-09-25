@@ -20,7 +20,8 @@ const Header = () => {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-            </button>
+                    </button>
+                    {/* navbar  */}
             <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
               <div className="navbar-nav fw-bold">
                 <a

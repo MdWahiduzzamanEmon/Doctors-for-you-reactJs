@@ -1,0 +1,18 @@
+.hired-doctors h5 {
+    color: rgb(99, 96, 96);
+      margin: 25px 0;
+}
+.hired-doctors li {
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+}
+.hired-doctors h5 span{
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid rgba(99, 96, 96, 0.253);
+    padding: 5px;
+    
+}
+.icon{
+    color: goldenrod;
+}

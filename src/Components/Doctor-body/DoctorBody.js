@@ -7,7 +7,7 @@ import './DoctorBody.css'
 const DoctorBody = () => {
     const [doctors, setDoctors] = useState([]);
     const[HiringDoctor,setHiringDoctor]=useState([])
-
+    // api load 
     useEffect(() => {
         fetch("./fakeData.json")
           .then((res) => res.json())
@@ -16,15 +16,24 @@ const DoctorBody = () => {
 
     // buttton 
     const handleHiring = (doctor) => {
-        const Hiring = [...HiringDoctor,doctor];
-        setHiringDoctor(Hiring);
+        const Hiring = [...HiringDoctor, doctor];
+        // error handel 
+        if (HiringDoctor.includes(doctor)) {
+            alert('You Already Hired!!')
+            return;
+
+        } else {
+            setHiringDoctor(Hiring);
+        }
     }
     return (
-      <div className="body-part">
+        <div className="body-part">
+            {/* hiring details  */}
         <div>
-          <HiringDoctors HiringDoctor={HiringDoctor}></HiringDoctors>
+                <HiringDoctors HiringDoctor={HiringDoctor}></HiringDoctors>
         </div>
         {/* doctors details */}
+        
         <div className="cart-style">
           {doctors.map((doctor) => (
             <Doctors
