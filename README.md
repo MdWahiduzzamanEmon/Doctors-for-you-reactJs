@@ -4,7 +4,7 @@ This project Live linK [Click here to go website](https://doctors-for-you-reactj
 
 ## Available Scripts
 
-In this project main purpose:
+In this project main purpose are:
 
 1. You can hire best doctors for your orgabizaton.
 2. You can check their details and choose doctors as you want.
@@ -19,3 +19,6 @@ In this project main purpose:
  2. bootstrap
  3. Vanilla Css
  4. Custom Api
+
+ * Uses Browser - Chrome Browser
+ * Uses IDE- Visual Studio Code
