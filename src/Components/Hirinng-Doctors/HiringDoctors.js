@@ -16,7 +16,7 @@ const HiringDoctors = (props) => {
         </h2>
         <h5>
           <span>Total Hire:</span> {props.HiringDoctor.length} Doctors{" "}
-          <i class="fas fa-user-md"></i>
+          <i class="fas fa-user-md icon"></i>
         </h5>
         <h5>
           <span>Total Hiring Charge:</span> {total}$

@@ -1,0 +1,9 @@
+.text-style{
+    /* text-align: right; */
+    display: flex;
+   justify-content: space-evenly;
+   font-weight: bold;
+}
+.fas{
+    color:skyblue
+}
