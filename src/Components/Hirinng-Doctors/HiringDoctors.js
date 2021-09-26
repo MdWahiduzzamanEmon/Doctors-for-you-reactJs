@@ -16,7 +16,7 @@ const HiringDoctors = (props) => {
         </h2>
         <h5>
           <span>Total Hire:</span> {props.HiringDoctor.length} Doctors{" "}
-          <i class="fas fa-user-md icon"></i>
+          <i className="fas fa-user-md icon"></i>
         </h5>
         <h5>
           <span>Total Hiring Charge:</span> {total}$
@@ -26,7 +26,7 @@ const HiringDoctors = (props) => {
         </h5>
         {props.HiringDoctor.map((doctor) => (
           <li key={doctor.id}>
-            {doctor.name} <i class="fas fa-user-md icon"></i>
+            {doctor.name} <i className="fas fa-user-md icon"></i>
           </li>
         ))}
       </div>

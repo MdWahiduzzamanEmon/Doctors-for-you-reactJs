@@ -2,11 +2,10 @@
 .doctors-details-cart{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* border: 2px solid red; */
-    height: 70vh;
+    height: 32.5rem;
     margin: 10px;
     box-shadow: 2px 0px 10px gray;
-    padding: 15px;
+    padding: .9375rem;
     background: rgb(233, 231, 231);
 }
 .img{
@@ -15,24 +14,25 @@
 .img img{
     width: 90%;
     border: 2px solid gray;
-    border-radius: 5px;
+    border-radius: .3125rem;
 }
 
 .about-Doctors>div{
-     width: 200px;
+     width: 12.5rem;
      font-weight: bold;
-     height: 450px;
+     height: 28.125rem;
 }
+
 .about-Doctors span{
     font-weight: normal;
 }
 .about-Doctors p{
     border-bottom: 1px solid gray;
-    padding: 8px;
+    padding: .5rem;
 }
 .social-icons{
     display: flex;
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 .social-icons .fab{
     padding: 0 7px;
@@ -42,4 +42,27 @@
     padding: 0 7px;
     color: rgb(5, 85, 85);
     cursor: pointer;
+}
+
+@media only screen and (max-width:768px){
+    .doctors-details-cart{
+    display: flex;
+    flex-direction: column;
+    height:895px;
+    margin: .625rem;
+    box-shadow: 2px 0px 10px gray;
+    padding: .9375rem;
+    background: rgb(233, 231, 231);
+    text-align: center;
+    width: 250px;
+}
+.about-Doctors{
+     width: 0px;
+     
+}
+.about-Doctors>div{
+     
+     font-weight: bold;
+     height: 22rem;
+}
 }

@@ -2,7 +2,7 @@
 import './Doctors.css';
 
 const Doctors = (props) => {
-    // console.log(props);
+   
     const { name, Qualifications, Job, contact, image, visit_Charge } =
       props.doctor;
     return (
@@ -12,9 +12,9 @@ const Doctors = (props) => {
                 <img src={image} alt="" />
                     {/* add social icons  */}
             <div className="social-icons">
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-facebook"></i>
+              <i className="fab fa-instagram"></i>
+              <i className="fab fa-linkedin"></i>
             </div>
           </div>
           <div className="about-Doctors">
@@ -42,7 +42,7 @@ const Doctors = (props) => {
                 onClick={() => props.handleHiring(props.doctor)}
               >
                 <span>
-                  <i class="fas fa-user-md"></i>
+                  <i className="fas fa-user-md"></i>
                 </span>{" "}
                 Hiring
               </button>

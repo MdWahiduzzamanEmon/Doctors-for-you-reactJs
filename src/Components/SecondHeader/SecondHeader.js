@@ -20,10 +20,10 @@ const SecondHeader = () => {
         </div>
         <div className="text-style mb-5">
           <p>
-            <i class="fas fa-envelope"></i> Email: wahedemon09@gmail.com
+            <i className="fas fa-envelope"></i> Email: wahedemon09@gmail.com
           </p>
           <p>
-            <i class="fas fa-phone"></i> Phone Number: +0964363
+            <i className="fas fa-phone"></i> Phone Number: +0964363435
           </p>
         </div>
       </div>
