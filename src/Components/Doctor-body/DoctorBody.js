@@ -45,6 +45,7 @@ const DoctorBody = () => {
             ))}
           </div>
         </section>
+        {/* footer section  */}
         <footer className="text-center py-5 fw-bold">
           <p>
             Designed by ||2021|| <span className="text-warning">MD WAHIDUZZAMAN EMON</span>
