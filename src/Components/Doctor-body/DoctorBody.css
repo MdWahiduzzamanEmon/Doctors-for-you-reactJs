@@ -16,7 +16,7 @@
     }
     .body-part{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 }
     .cart-style{
         display: flex;
