@@ -27,22 +27,29 @@ const DoctorBody = () => {
         }
     }
     return (
-        <div className="body-part">
-            {/* hiring details  */}
-        <div>
-                <HiringDoctors HiringDoctor={HiringDoctor}></HiringDoctors>
-        </div>
-        {/* doctors details */}
-        
-        <div className="cart-style">
-          {doctors.map((doctor) => (
-            <Doctors
-              handleHiring={handleHiring}
-              key={doctor.id}
-              doctor={doctor}
-            ></Doctors>
-          ))}
-        </div>
+      <div>
+        <section className="body-part">
+          {/* hiring details  */}
+          <div>
+            <HiringDoctors HiringDoctor={HiringDoctor}></HiringDoctors>
+          </div>
+          {/* doctors details */}
+
+          <div className="cart-style">
+            {doctors.map((doctor) => (
+              <Doctors
+                handleHiring={handleHiring}
+                key={doctor.id}
+                doctor={doctor}
+              ></Doctors>
+            ))}
+          </div>
+        </section>
+        <footer className="text-center py-5 fw-bold">
+          <p>
+            Designed by ||2021|| <span className="text-warning">MD WAHIDUZZAMAN EMON</span>
+          </p>
+        </footer>
       </div>
     );
 };
